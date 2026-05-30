@@ -50,4 +50,4 @@ export async function GET(
 		console.log('ERROR GETTING QUESTIONS', error);
 		return new NextResponse('Internal Server Error', { status: 500 });
 	}
-}
+}
