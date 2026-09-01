@@ -33,4 +33,4 @@ export async function DELETE(
 		);
 		return new NextResponse('Internal server error', { status: 500 });
 	}
-}
+}
